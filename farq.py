@@ -18,12 +18,12 @@ import constants as c
 
 class FarquharC3(object):
     """
-    Rate of photosynthesis in a leaf depends on the the rates of
+    Rate of photosynthesis in a leaf depends on the rates of
     carboxylation (Ac) and the regeneration of ribulose-1,5-bisphosphate (RuBP)
     catalysed by the enzyme RUBISCO (Aj). This class returns the net leaf
     photosynthesis (An) which is the minimum of this two limiting processes
     less the rate of mitochondrial respiration in the light (Rd). We are
-    ignoring the the "export" limitation (Ap) which could occur under high
+    ignoring the "export" limitation (Ap) which could occur under high
     levels of irradiance.
 
     Model assumes conductance between intercellular space and the site of
