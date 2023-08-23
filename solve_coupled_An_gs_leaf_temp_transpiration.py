@@ -415,3 +415,5 @@ if __name__ == '__main__':
                      deltaSv, Hdv, Hdj, Q10, leaf_width, SW_abs,
                      gs_model="leuning")
     (An, gsw, et, le_et, Cs, Ci) = C.main(tair, par, vpd, wind, pressure, Ca)
+
+    print(An, gsw, et, le_et, Cs, Ci)
