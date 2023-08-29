@@ -326,6 +326,7 @@ class FarquharC3(object):
           transpiration: scaling from leaves to canopies, Plant Cell Environ.,
           18, 1183– 1200, 1995. Leuning 1995, eqn C3.
         """
+
         A = self.theta_J
         B = -(self.alpha * Par + Jmax);
         C = self.alpha * Par * Jmax;
@@ -355,7 +356,7 @@ class FarquharC3(object):
 
         arg1 = -(1.0 - Cs * gs_over_a)
         arg2 = (gamma * gamma_star + beta * rd)
-        arg3 =  g0 * beta * Cs
+        arg3 = g0 * beta * Cs
         C = arg1 * arg2 - arg3
 
         Ci = self.quadratic(a=A, b=B, c=C, large=True)
