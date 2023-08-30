@@ -87,7 +87,7 @@ class CoupledModel(object):
 
         # set initialise values
         dleaf = vpd
-        dair = tair
+        dair = vpd  # tair
         Cs = Ca
         Tleaf = tair
         Tleaf_K = Tleaf + c.DEG_2_KELVIN
